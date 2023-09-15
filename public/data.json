@@ -1,0 +1,56 @@
+[
+  {
+    "image": "https://example.com/programming_course1.jpg",
+    "price": 49.99,
+    "credit": "3 credits",
+    "course_name": "python_programming"
+  },
+  {
+    "image": "https://example.com/programming_course2.jpg",
+    "price": 59.99,
+    "credit": "4 credits",
+    "course_name": "java_programming"
+  },
+  {
+    "image": "https://example.com/programming_course3.jpg",
+    "price": 39.99,
+    "credit": "2 credits",
+    "course_name": "c++_programming"
+  },
+  {
+    "image": "https://example.com/programming_course4.jpg",
+    "price": 69.99,
+    "credit": "5 credits",
+    "course_name": "javascript_programming"
+  },
+  {
+    "image": "https://example.com/programming_course5.jpg",
+    "price": 29.99,
+    "credit": "2 credits",
+    "course_name": "ruby_programming"
+  },
+  {
+    "image": "https://example.com/programming_course6.jpg",
+    "price": 79.99,
+    "credit": "6 credits",
+    "course_name": "swift_programming"
+  },
+  {
+    "image": "https://example.com/programming_course7.jpg",
+    "price": 44.99,
+    "credit": "3 credits",
+    "course_name": "php_programming"
+  },
+  {
+    "image": "https://example.com/programming_course8.jpg",
+    "price": 54.99,
+    "credit": "3.5 credits",
+    "course_name": "html_css_programming"
+  },
+  {
+    "image": "https://example.com/programming_course9.jpg",
+    "price": 49.99,
+    "credit": "3.2 credits",
+    "course_name": "python_data_science"
+  }
+]
