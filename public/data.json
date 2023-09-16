@@ -1,56 +1,65 @@
 [
   {
-    "image": "https://example.com/programming_course1.jpg",
-    "price": 49.99,
+    "id": "course1",
+    "image": "https://i.ibb.co/Pj6JX2C/Rectangle-2-2.png",
+    "course_name": "Introduction to C Programming",
     "credit": "3 credits",
-    "course_name": "python_programming"
+    "price": 15000
   },
   {
-    "image": "https://example.com/programming_course2.jpg",
-    "price": 59.99,
+    "id": "course2",
+    "image": "https://i.ibb.co/9gZ0K6z/Rectangle-2-3.png",
+    "course_name": "Introduction to Algorithms",
     "credit": "4 credits",
-    "course_name": "java_programming"
+    "price": 25000
   },
   {
-    "image": "https://example.com/programming_course3.jpg",
-    "price": 39.99,
-    "credit": "2 credits",
-    "course_name": "c++_programming"
-  },
-  {
-    "image": "https://example.com/programming_course4.jpg",
-    "price": 69.99,
-    "credit": "5 credits",
-    "course_name": "javascript_programming"
-  },
-  {
-    "image": "https://example.com/programming_course5.jpg",
-    "price": 29.99,
-    "credit": "2 credits",
-    "course_name": "ruby_programming"
-  },
-  {
-    "image": "https://example.com/programming_course6.jpg",
-    "price": 79.99,
-    "credit": "6 credits",
-    "course_name": "swift_programming"
-  },
-  {
-    "image": "https://example.com/programming_course7.jpg",
-    "price": 44.99,
+    "id": "course3",
+    "image": "https://i.ibb.co/xgGZkfM/Rectangle-2-4.png",
+    "course_name": "Introduction to C++ for DSA",
     "credit": "3 credits",
-    "course_name": "php_programming"
+    "price": 10000
   },
   {
-    "image": "https://example.com/programming_course8.jpg",
-    "price": 54.99,
+    "id": "course4",
+    "image": "https://i.ibb.co/p4gBnz8/Rectangle-3.png",
+    "course_name": "Basic Data Structures",
+    "credit": "4 credits",
+    "price": 35000
+  },
+  {
+    "id": "course5",
+    "image": "https://i.ibb.co/0jQBPqr/Rectangle-2.png",
+    "course_name": "Introduction to OOP Python",
+    "credit": "2 credits",
+    "price": 19000
+  },
+  {
+    "id": "course6",
+    "image": "https://i.ibb.co/4VhKcL3/Rectangle-2-5.png",
+    "course_name": "Software Engineering",
+    "credit": "5 credits",
+    "price": 23000
+  },
+  {
+    "id": "course7",
+    "image": "https://i.ibb.co/5FBDFtX/Rectangle-3-1.png",
+    "course_name": "AWS, Cloud Computing",
+    "credit": "3 credits",
+    "price": 35000
+  },
+  {
+    "id": "course8",
+    "image": "https://i.ibb.co/2cRsxjz/Rectangle-2-1.png",
+    "course_name": "Database (MySQL)",
     "credit": "3.5 credits",
-    "course_name": "html_css_programming"
+    "price": 19000
   },
   {
-    "image": "https://example.com/programming_course9.jpg",
-    "price": 49.99,
+    "id": "course9",
+    "image": "https://i.ibb.co/4VhKcL3/Rectangle-2-5.png",
+    "course_name": "Problem-Solving Part",
     "credit": "3.2 credits",
-    "course_name": "python_data_science"
+    "price": 23000
   }
 ]

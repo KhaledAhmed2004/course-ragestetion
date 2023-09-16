@@ -1,4 +1,5 @@
-const Cart = () => {
+const Cart = ({ selectedCourse }) => {
+  console.log(selectedCourse);
   return (
     <div className="card card-compact w-80 bg-base-100 shadow-xl">
       <div className="card-body">
@@ -7,7 +8,11 @@ const Cart = () => {
         </h2>
         <hr />
         <h2 className="font-bold text-sm text-[#1C1B1B]">Course Name</h2>
-        <h3>Lorem ipsum dolor sit amet consectetur</h3>
+        <ol>
+          {selectedCourse.map((course) => (
+            <li key={course.id}>{course.course_name}</li>
+          ))}
+        </ol>
         <hr />
         <h2 className="font-medium text-base text-[#1C1B1BCC]">
           Total Credit Hour : 13
