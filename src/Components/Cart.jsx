@@ -1,13 +1,13 @@
 import { useState } from "react";
 
-const Cart = ({ selectedCourse, totalPrice }) => {
+const Cart = ({ selectedCourse, totalPrice, totalCredit, totalRemaining }) => {
   const [credit, setCredit] = useState(0);
 
   return (
     <div className="card card-compact w-80 bg-base-100 shadow-xl">
       <div className="card-body">
         <h2 className="text-[#2F80ED] font-bold text-lg">
-          Credit Hour Remaining 7 hr
+          Credit Hour Remaining {totalRemaining} hr
         </h2>
         <hr />
         <h2 className="font-bold text-sm text-[#1C1B1B]">Course Name</h2>
@@ -18,10 +18,7 @@ const Cart = ({ selectedCourse, totalPrice }) => {
         </ol>
         <hr />
         <h2 className="font-medium text-base text-[#1C1B1BCC]">
-          Total Credit Hour :{" "}
-          {selectedCourse.map((course, idx) => (
-            <span key={idx}>{parseInt(course.credit)}</span>
-          ))}
+          Total Credit Hour :{totalCredit}
         </h2>
         <hr />
         <h2 className="font-semibold text-base text-[#1C1B1BCC]">
