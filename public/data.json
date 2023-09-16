@@ -3,63 +3,63 @@
     "id": "course1",
     "image": "https://i.ibb.co/Pj6JX2C/Rectangle-2-2.png",
     "course_name": "Introduction to C Programming",
-    "credit": "3 credits",
+    "credit": "1hr",
     "price": 15000
   },
   {
     "id": "course2",
     "image": "https://i.ibb.co/9gZ0K6z/Rectangle-2-3.png",
     "course_name": "Introduction to Algorithms",
-    "credit": "4 credits",
+    "credit": "2hr",
     "price": 25000
   },
   {
     "id": "course3",
     "image": "https://i.ibb.co/xgGZkfM/Rectangle-2-4.png",
     "course_name": "Introduction to C++ for DSA",
-    "credit": "3 credits",
+    "credit": "10hr",
     "price": 10000
   },
   {
     "id": "course4",
     "image": "https://i.ibb.co/p4gBnz8/Rectangle-3.png",
     "course_name": "Basic Data Structures",
-    "credit": "4 credits",
+    "credit": "5hr",
     "price": 35000
   },
   {
     "id": "course5",
     "image": "https://i.ibb.co/0jQBPqr/Rectangle-2.png",
     "course_name": "Introduction to OOP Python",
-    "credit": "2 credits",
+    "credit": "5hr",
     "price": 19000
   },
   {
     "id": "course6",
     "image": "https://i.ibb.co/4VhKcL3/Rectangle-2-5.png",
     "course_name": "Software Engineering",
-    "credit": "5 credits",
+    "credit": "2hr",
     "price": 23000
   },
   {
     "id": "course7",
     "image": "https://i.ibb.co/5FBDFtX/Rectangle-3-1.png",
     "course_name": "AWS, Cloud Computing",
-    "credit": "3 credits",
+    "credit": "5hr",
     "price": 35000
   },
   {
     "id": "course8",
     "image": "https://i.ibb.co/2cRsxjz/Rectangle-2-1.png",
     "course_name": "Database (MySQL)",
-    "credit": "3.5 credits",
+    "credit": "5hr",
     "price": 19000
   },
   {
     "id": "course9",
     "image": "https://i.ibb.co/4VhKcL3/Rectangle-2-5.png",
     "course_name": "Problem-Solving Part",
-    "credit": "3.2 credits",
+    "credit": "2hr",
     "price": 23000
   }
 ]

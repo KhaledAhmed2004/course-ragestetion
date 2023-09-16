@@ -1,7 +1,7 @@
 import { FiDollarSign } from "react-icons/fi";
 import { GoBook } from "react-icons/go";
 const Card = ({ card, handleSelectedCourse }) => {
-  const { image, course_name, price } = card;
+  const { image, course_name, price, credit } = card;
   return (
     <div className="card card-compact bg-base-100 shadow-xl">
       <figure className="px-4 pt-4">
@@ -23,7 +23,7 @@ const Card = ({ card, handleSelectedCourse }) => {
           <div className="flex items-center gap-2">
             <GoBook className="h-6 w-6" />
             <p className="text-[#1C1B1B99] font-medium text-base">
-              Credit : 1hr
+              Credit : {credit}
             </p>
           </div>
         </div>

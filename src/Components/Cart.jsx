@@ -1,5 +1,8 @@
-const Cart = ({ selectedCourse }) => {
-  console.log(selectedCourse);
+import { useState } from "react";
+
+const Cart = ({ selectedCourse, totalPrice }) => {
+  const [credit, setCredit] = useState(0);
+
   return (
     <div className="card card-compact w-80 bg-base-100 shadow-xl">
       <div className="card-body">
@@ -9,17 +12,20 @@ const Cart = ({ selectedCourse }) => {
         <hr />
         <h2 className="font-bold text-sm text-[#1C1B1B]">Course Name</h2>
         <ol>
-          {selectedCourse.map((course) => (
-            <li key={course.id}>{course.course_name}</li>
+          {selectedCourse.map((course, idx) => (
+            <li key={idx}>{course.course_name}</li>
           ))}
         </ol>
         <hr />
         <h2 className="font-medium text-base text-[#1C1B1BCC]">
-          Total Credit Hour : 13
+          Total Credit Hour :{" "}
+          {selectedCourse.map((course, idx) => (
+            <span key={idx}>{parseInt(course.credit)}</span>
+          ))}
         </h2>
         <hr />
         <h2 className="font-semibold text-base text-[#1C1B1BCC]">
-          Total Price : 48000 USD
+          Total Price : {totalPrice}
         </h2>
       </div>
     </div>
