@@ -2,7 +2,7 @@ import { FiDollarSign } from "react-icons/fi";
 import { GoBook } from "react-icons/go";
 const Card = () => {
   return (
-    <div className="card card-compact w-96 bg-base-100 shadow-xl">
+    <div className="card card-compact bg-base-100 shadow-xl">
       <figure className="px-4 pt-4">
         <img
           className="rounded-lg"
