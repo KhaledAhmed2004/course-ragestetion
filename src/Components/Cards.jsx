@@ -9,7 +9,7 @@ const Cards = ({ handleSelectedCourse }) => {
       .then((data) => setCards(data));
   }, []);
   return (
-    <div className="grid grid-cols-3 gap-5 pb-5 flex-1">
+    <div className="grid grid-cols-3 gap-5 pb-5 ">
       {cards.map((card) => (
         <Card
           key={card.id}

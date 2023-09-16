@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const Cart = ({ selectedCourse, totalPrice, totalCredit, totalRemaining }) => {
   const [credit, setCredit] = useState(0);
-
+  let count = 0;
   return (
     <div className="card card-compact w-80 bg-base-100 shadow-xl">
       <div className="card-body">
@@ -10,10 +10,11 @@ const Cart = ({ selectedCourse, totalPrice, totalCredit, totalRemaining }) => {
           Credit Hour Remaining {totalRemaining} hr
         </h2>
         <hr />
-        <h2 className="font-bold text-sm text-[#1C1B1B]">Course Name</h2>
+        <h2 className="font-bold text-lg text-[#1C1B1B]">Course Name</h2>
         <ol>
           {selectedCourse.map((course, idx) => (
-            <li key={idx}>{course.course_name}</li>
+            <li key={idx} className="text-[#1C1B1B99] text-base">{`${(count =
+              count + 1)} course.course_name`}</li>
           ))}
         </ol>
         <hr />
