@@ -56,7 +56,7 @@ function App() {
       <h1 className="font-bold text-3xl text-center py-6">
         Course Registration
       </h1>
-      <div className="flex gap-5 ">
+      <div className="md:flex gap-5 ">
         <Cards handleSelectedCourse={handleSelectedCourse}></Cards>
         <div>
           <Cart
